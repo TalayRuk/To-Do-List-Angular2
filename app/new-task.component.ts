@@ -4,7 +4,6 @@ import { Task } from './task.model';
 @Component({
   selector: 'new-task',
   template: `
-  <div *ngFor="NewTaskComponent">
     <h1>New Task: </h1>
     <div>
       <label>Enter Task Description: </label>
